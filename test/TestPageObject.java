@@ -134,7 +134,8 @@ public class TestPageObject {
 		log.info("Image location: " + printScreen(driver).getAbsolutePath());
 				
 	}
-
+	
+	// method that add screenshot to the report
 	public static void addSnapShotToReport(File file) {
 		Reporter.log("<br/><p><img width='700' src='"+file.getAbsolutePath()+"'></p>");
 	}
